@@ -1,2 +1,2 @@
 # SICP
-SICP excises
+SICP exercises

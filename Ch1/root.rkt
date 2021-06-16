@@ -13,7 +13,7 @@
   (/ (+ x y) 2))
 
 (define (good-enough? guess x)
-  (< (abs (- (square guess) x)) 0.000000000000001))
+  (< (abs (- (square guess) x)) 0.0001))
 
 (define (square x) (* x x))
 
@@ -21,3 +21,4 @@
   (sqrt-iter 1.0 x))
 
 (sqrt 9)
+(square (sqrt 1000.0))

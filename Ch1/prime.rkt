@@ -19,5 +19,3 @@
 (prime? 17)
 (prime? 42)
 (prime? 1024)
-
-                    

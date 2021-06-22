@@ -37,8 +37,9 @@
      (cond ((<= n upper) (timed-prime-test n) (iter (+ n 2))))) 
    (iter (if (odd? lower) lower (+ lower 1)))) 
 
-(search-for-primes 10000000 10000100)
-(search-for-primes 1000000000 1000000100)
-(search-for-primes 100000000000 100000000100)
+(search-for-primes 1000 1019)
+(search-for-primes 10000 10037)
+(search-for-primes 100000 100043)
+(search-for-primes 1000000 1000037)
 
 

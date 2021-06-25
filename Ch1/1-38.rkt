@@ -1,10 +1,10 @@
 #lang sicp
 
 (define (n i) 1.0)
-  (define (d i)
-    (cond ((< i 3) i)
-          ((= (remainder (- i 2) 3) 0) (* 2 (+ (/ (- i 2) 3) 1)))
-          (else 1)))
+(define (d i)
+  (cond ((< i 3) i)
+        ((= (remainder (- i 2) 3) 0) (* 2 (+ (/ (- i 2) 3) 1)))
+        (else 1)))
    
 (define (cont-frac n d k)
  (define (frac-rec i)

@@ -48,4 +48,13 @@
               (balanced? (branch-structure (left-branch   m))) 
               (balanced? (branch-structure (right-branch  m)))))))
 
+(define mobile2 (make-mobile 
+                (make-branch 4 6) 
+                (make-branch 2 
+                             (make-mobile 
+                              (make-branch 5 8) 
+                              (make-branch 10 4))))) 
+
+
 (balanced? mobile)
+(balanced? mobile2)
